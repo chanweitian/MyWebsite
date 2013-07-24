@@ -50,6 +50,7 @@ function init(){
     $('#about').css({"line-height": height+"px"});
     
     $('#next_button_holder').css({"top":height/2+"px"});
+    $('#prev_button_holder').css({"top":height/2+"px"});
     
 }
 

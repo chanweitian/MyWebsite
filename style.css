@@ -151,7 +151,7 @@ ul {
 	float: left;
     background-size: cover;
     z-index: 2;
-    padding-left: 1%;
+    padding-left: 1.7%;
     padding-top: 1.5%;
 }
 
@@ -161,7 +161,6 @@ ul {
 	background-color: rgba(255, 133, 132, 0.8);
 	z-index: 3;
 	padding: 0.5% 0.5% 0.7%;
-
 }
 
 .holder h2{
@@ -187,15 +186,32 @@ a.next {
     display: block;
 	height: 60px;
 	width: 60px;
-
 }
 
 #next_button_holder{
 	height: 60px;
 	width: 60px;
-	right: 50px;
+	right: 25px;
 	position: absolute;	
 }
+
+
+a.prev {
+    background: url(images/arrow-left.png) no-repeat transparent;
+	background-size: 60px auto;
+    display: block;
+	height: 60px;
+	width: 60px;
+}
+
+#prev_button_holder{
+	height: 60px;
+	width: 60px;
+	left: 25px;
+	position: absolute;	
+}
+
+
 
 
 
