@@ -47,8 +47,6 @@ function init(){
     $('.img_container').height(height);
     $('.img_container').width($(window).width()-10);
     
-    $('#about').css({"line-height": height+"px"});
-    
     $('#next_button_holder').css({"top":height/2+"px"});
     $('#prev_button_holder').css({"top":height/2+"px"});
     

@@ -7,12 +7,6 @@ x. CSS Reset & Selection
 	z-index: 1
 }
 
-::selection {
-	color: #6e6fff;
-}
-::-moz-selection {
-	color: #6e6fff;
-}
 
 
 /***********************
@@ -21,7 +15,7 @@ x. Basic Setup (Body, Fonts, etc.)
 
 html, body {
 	font: 12px Helvetica, Arial, sans-serif;
-	color: #000;
+	color: #FFF;
 	background: #000;
 }
 
@@ -112,9 +106,6 @@ ul {
     font-weight: bold;
     color: #FFF;
     font-size: 68px;
-
-
-    
 }
 
 #name {
@@ -130,9 +121,30 @@ ul {
 
 #about {
     display: table-row;
-    background: #f8e7d5;
-    text-align: center;
-    vertical-align: middle;
+    background: #2980b9;
+}
+
+#intro {
+	margin-left: 30%;
+	margin-top: 7%;
+	font-size: 20px;
+	width: 65%;
+}
+
+#intro h1 {
+	font-size: 68px;
+	color: #FFF;
+	text-transform: none;
+}
+
+#intro h2 {
+	color: #FFF;
+	font-weight: normal;
+	margin-bottom: 60px;
+}
+
+#intro p+p{
+	margin-top: 32px;
 }
 
 /***********************
