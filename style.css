@@ -14,13 +14,12 @@ x. Basic Setup (Body, Fonts, etc.)
 ************************/
 
 html, body {
-	font: 12px Helvetica, Arial, sans-serif;
+	font-family: "Roboto Slab",Helvetica, Arial, sans-serif;
 	color: #FFF;
 	background: #000;
 }
 
 h1 {
-	font: Centuary Gothic,Helvetica Neue, Helvetica, Arial;
 	font-weight: normal;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -65,7 +64,7 @@ ul {
     list-style: none;
 }
 #nav a {
-	font: 10px Helvetica Neue, Helvetica, Arial;
+	font-size: 10px;
 	color: #FFF;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -145,6 +144,41 @@ ul {
 
 #intro p+p{
 	margin-top: 32px;
+}
+
+/***********************
+ x. Projects
+ ************************/
+
+#projects {
+	width: 100%;
+    display: table-row;
+    background: #FFF;
+}
+
+#p_wrapper {
+	margin: 0px 70px 0px;
+}
+
+.cell {
+	height: 300px;
+	width: 250px;
+	background: #ff8584;
+	margin: 20px;
+}
+
+#projects h1{
+	text-transform: none;
+	font-size: 16px;
+	font-weight: 300;
+	text-align: center;
+	margin: 7px 0px 0px 2px;
+}
+
+#projects h2{
+	font-size: 12px;
+	font-weight: 300;
+	text-align: center;
 }
 
 /***********************

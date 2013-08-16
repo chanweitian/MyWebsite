@@ -43,7 +43,8 @@ function init(){
     $('#about').height(height);
     $('#home').height(height);
     $('#interest').height(height);
-    
+    $('#projects').height(height);
+
     $('.img_container').height(height);
     $('.img_container').width($(window).width()-10);
     
